@@ -22,6 +22,8 @@ gem 'jbuilder', '~> 2.0'
 #gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'devise', '~> 3.5.0.rc2'
+gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'aws-s3', '~> 0.6.3'
 
 gem 'bootstrap-sass' 
 # Use ActiveModel has_secure_password
