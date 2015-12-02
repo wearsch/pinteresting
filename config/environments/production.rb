@@ -81,12 +81,12 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: 'wearsch', port: 3000 }
 
   # Sets Paperclip to upload images to Amazon S3
-  config.paperclip_defaults = {
-  :storage => :s3,
-  :s3_credentials => {
-    :bucket => ENV['msw001'],
-    :access_key_id => ENV['AKIAIPZXCTHIV7UDNRTA'],
-    :secret_access_key => ENV['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']
-  }
+  #config.paperclip_defaults = {
+  #:storage => :s3,
+  #:s3_credentials => {
+  #  :bucket => ENV['msw001'],
+  #  :access_key_id => ENV['AKIAIPZXCTHIV7UDNRTA'],
+  #  :secret_access_key => ENV['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']
+  #}
 }
 end
