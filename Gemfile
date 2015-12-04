@@ -42,8 +42,8 @@ gem 'masonry-rails', '~> 0.2.0'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
-
-
+gem 'will_paginate', '~> 3.0'
+gem 'will_paginate-bootstrap'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
 	gem 'sqlite3'
